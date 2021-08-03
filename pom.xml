@@ -177,9 +177,6 @@
         <sonar-maven-plugin.version>3.2</sonar-maven-plugin.version>
         <commons-text.version>1.4</commons-text.version>
         <artemis.version>2.11.0</artemis.version>
-        <!-- iText -->
-        <itext-itext7-core.version>7.1.6</itext-itext7-core.version>
-        <itext-html2pdf.version>2.1.3</itext-html2pdf.version>
     </properties>
 
     <prerequisites>
@@ -567,17 +564,6 @@
                 <groupId>org.jvnet.jaxb2_commons</groupId>
                 <artifactId>jaxb2-basics</artifactId>
                 <version>${jaxb2-basics.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>itext7-core</artifactId>
-                <version>${itext-itext7-core.version}</version>
-                <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>html2pdf</artifactId>
-                <version>${itext-html2pdf.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
